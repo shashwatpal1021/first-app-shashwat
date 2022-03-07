@@ -1,9 +1,10 @@
 import React from 'react'
 
 export const Footer = () => {
-  return (
-     <div>
-        <h2>Hello Shashwat</h2>
-    </div>
-  )
+   return (
+      <footer className="bg-dark text-light py-3">
+         <p className="text-center">Copyright &2022: Shashwat Pal
+         </p>
+      </footer>
+   )
 }
