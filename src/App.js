@@ -6,7 +6,7 @@ import { Footer } from './Components/Footer';
 function App() {
   return (
     <>
-      <Header></Header>
+      <Header title="Shashwat Todos"></Header>
       <Footer></Footer>
     </>
   );
