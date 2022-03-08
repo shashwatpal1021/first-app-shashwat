@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function Header({title}) {
   return (
@@ -24,3 +25,11 @@ export default function Header({title}) {
 </nav>
   )
 }
+
+//strict checking that title must be string
+
+Header.protoTypes = {
+  title: PropTypes.string.isRequired
+}
+
+
