@@ -16,7 +16,7 @@ export default function Header({title}) {
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">About</a>
         </li>
-       
+         
       </ul>
       
     </div>
